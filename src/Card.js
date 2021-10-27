@@ -3,8 +3,8 @@ function Card(props){
         <div className={"container"}>
             <img src={props.img} alt="picsum"/>
             <h1>{props.name}</h1>
-            <p>{props.phone}</p>
-            <p>{props.deply}</p>
+            <h2>{props.age}</h2>
+            <h2>{props.Phone}</h2>
         </div>
     )
 }
